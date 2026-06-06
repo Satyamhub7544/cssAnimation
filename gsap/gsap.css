@@ -2,6 +2,22 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    background-color: #111;
-    color: aliceblue;
+}
+
+html,body {
+     background: #111;
+}
+
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: #ea6161;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
 }
