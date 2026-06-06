@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height:100vh;
+    width: 100%;
+    background-color: #111;
+    padding: 10px;
+    position: absolute;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: crimson;
+    animation-name: stateChange;
+    animation-duration:5s;
+    animation-delay: 1s;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    position: relative;
+    
+}
+
+/* Add animation */
+
+@keyframes stateChange {
+    from {
+        left: 0;
+        rotate: 0;
+    }
+    to{
+        left: 70%;
+        rotate: 30deg;
+        background-color: red ;
+    }
+}
