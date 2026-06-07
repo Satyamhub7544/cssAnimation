@@ -1,5 +1,6 @@
-gsap.to("box1 h1", {
+gsap.from(".box h1", {
   duration: 1,
+  y: 50,
   opacity: 0,
-  yoyo: true,
+  stagger:0.5,
 });
