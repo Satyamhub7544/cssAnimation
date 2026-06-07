@@ -6,3 +6,4 @@ gsap.from(".box", {
   duration: 2,
   delay: 2,
 });
+
