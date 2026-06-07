@@ -9,15 +9,50 @@ html,body {
 }
 
 
-.box{
-    height: 300px;
-    width: 300px;
+nav{
+    width: 100%;
     background-color: #ea6161;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 1rem;
     position: absolute;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: yellow;
+    
 }
+
+.box{
+    background-color:transparent;
+    color:white;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box1{
+    background-color:transparent;
+    color:white;
+    height:0;
+    margin-top: 1rem;
+    width:100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    visibility: hidden;
+    transition: 1s;
+    transform: translateY(-10px);
+   
+}
+
+nav:hover .box1{
+   visibility: visible;
+    transform: translateY(0px);
+    height: 5rem;
+
+}
+

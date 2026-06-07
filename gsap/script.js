@@ -1,9 +1,5 @@
-gsap.from(".box", {
-  left: "1200px",
-  borderRadius: "50%",
-  backgroundColor: "red",
-  rotation: 360,
-  duration: 2,
-  delay: 2,
+gsap.to("box1 h1", {
+  duration: 1,
+  opacity: 0,
+  yoyo: true,
 });
-
